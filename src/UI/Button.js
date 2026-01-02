@@ -1,4 +1,4 @@
-import Phaser from "../../node_modules/phaser/src/phaser.js";
+import Phaser from "phaser";
 /**
  * A simple interactive text-based button component.
  * Displays a label and emits events when hovered or clicked.
