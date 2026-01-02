@@ -1,0 +1,12 @@
+/* 
+ADD A FONT:
+@font-face {
+  font-family: '<name>';
+  src: url('<path-to-asset>') format('truetype');
+}
+*/
+
+/* BASIC GAME CSS */
+h1 {
+  text-align: center;
+}

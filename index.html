@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+== IMPORTANT ==
+
+Expects the following folder structure:
+
+<proyect folder>/
+	| index.html
+	| css/
+	|	| style.css
+	| src/
+	|	| main.js
+
+-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=2.0">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./css/style.css">
+
+	<!-- WEB ICON -->
+	<link rel="icon" type="image/x-icon" href="http://labs.phaser.io/assets/sprites/star.png">
+
+	<!-- WEB TAB NAME-->
+	<title> TEST </title>
+
+	<!-- GAME ENTRY POINT (will be loaded last with 'defer') -->
+	<script src="./src/main.js" type="module" defer></script>
+</head>
+
+<body>	  
+	<!-- TITLE -->
+	<h1> TEST </h1>
+	
+	<!-- GAME CONTAINER -->
+	<div id='game-container'></div>
+</body>
+
+</html>
