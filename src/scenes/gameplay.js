@@ -1,4 +1,4 @@
-import Phaser from "phaser.js";
+import Phaser from "../../node_modules/phaser/src/phaser.js";
 import { StrokeParser } from "../strokeParser.js";
 
 export class Gameplay extends Phaser.Scene{
