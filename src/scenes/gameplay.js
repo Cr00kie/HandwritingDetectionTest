@@ -1,5 +1,5 @@
-import Phaser from "phaser";
-import { StrokeParser } from "../strokeParser";
+import Phaser from "phaser.js";
+import { StrokeParser } from "../strokeParser.js";
 
 export class Gameplay extends Phaser.Scene{
     constructor(){
